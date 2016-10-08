@@ -1,0 +1,212 @@
+<!-- light-blue - v3.2.0 - 2016-02-21 -->
+
+<!DOCTYPE html>
+<head>
+    <title>web_平台</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/sale.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+
+</head>
+<body>
+<div class="hr-one"></div>
+<div class="hr-two"></div>
+<div class="container">
+    <div class="header">
+        <div class="header-box ">
+            <div class="header-right">
+                <ul class="header-nav">
+                    <li><a href="shopping_cart.html"><img src="img/icon/shopping.png">&nbsp&nbsp&nbsp</a></li>
+                    <li><span class="hr-three">|</span><a href="account_wish_list.html">&nbsp&nbsp&nbsp愿望清单&nbsp&nbsp&nbsp</a></li>
+                    <li><span class="hr-three">|</span><a href="jion.html">&nbsp&nbsp&nbsp登陆</a></li>
+                </ul>
+            </div>
+            <div class="header-left"><img class="logo-img" src="img/icon/logo.png"></div>
+            <div class="postion-r">
+                <input type="text" class="form-control searchinput" placeholder="" value="" id="txtSearch">
+                <a href="###"><img class="search_img" src="img/icon/sever.png"></a>
+            </div>
+
+            <nav class="nav-box">
+                <ul class="nav-top">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="about_size.html">关于尺寸</a></li>
+                    <li><a href="pre_sale1.html">预售</a></li>
+                    <li><a href="Goods_in_stock2.html">现货</a></li>
+                    <li><a href="designer.html">设计师</a></li>
+                    <li><a class="active" href="account-information.html">我的账户</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="informartion-box col-sm-12">
+            <div class="col-md-3 rsidebar">
+                <div class="" style="border: 1px solid #cccccc;border-bottom: 0px;height: 43px;">
+                    <div class="dropdown col-md-12">
+                        <div class="dropdown-top">
+                            <a href="###">
+                                <img src="img/icon/user.png">
+                                <span>我的账户</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="rsidebar-tops">
+                    <div class="slider-left">
+                        <div class="row" style="margin-top: 20px">
+                            <label class="checkbox informartion-label"><a class="" href="account-information.html">账户信息</a></label>
+                            <label class="checkbox informartion-label"><a class="active" href="account_receipt_address.html">收货地址</a></label>
+                            <label class="checkbox informartion-label"><a class="" href="accout_my_order.html">我的订单</a></label>
+                            <label class="checkbox informartion-label"><a class="" href="account_wish_list.html">愿望清单</a></label>
+                            <label class="checkbox informartion-label"><a class="" href="account_designer.html">关注的设计师</a></label>
+                            <label class="checkbox informartion-label"><a class="" href="account_push_information.html">推送信息</a></label>
+                            <label class="checkbox informartion-label"><a class="" href="index.html">注销</a></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-9 col-sm-12" style="width:78%;padding-left: 40px;padding-right: 0px;">
+                <div class="edit-box">
+                    <img src="img/icon/edit.png">
+                    <span>管理您的收货地址</span>
+                </div>
+                <div class="col-md-6 col-sm-6 address-nav-left" style="margin-right: 20px;">
+                    <div>
+                        <span class="pull-left"><strong>赵本尚</strong></span>
+                        <span class="pull-right">15121182078</span>
+                    </div>
+                    <p style="clear: both;padding-top: 8px;">中国·上海</p>
+                    <p>上海市徐汇区凯旋路1688弄阳光名邸255号楼1216室</p>
+                    <p>200030</p>
+                    <div class="pull-right">
+                        <a href="account_address_modification.html">
+                            <button type="button" class="btn btn-white"  data-toggle="modal" data-target=".bs-example-modal-sm">
+                                修改
+                            </button>
+                        </a>
+                        <button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal1">
+                            删除
+                        </button>
+                        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel1">删除地址</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <strong>您确认要删除此地址吗</strong>
+                                        </div>
+                                        <span>无法恢复此操作</span>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">确认删除</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-6 address-nav-right">
+                    <div>
+                        <span class="pull-left"><strong>赵本尚</strong></span>
+                        <span class="pull-right">15121182078</span>
+                    </div>
+                    <p style="clear: both;padding-top: 8px;">中国·上海</p>
+                    <p>上海市徐汇区凯旋路1688弄阳光名邸255号楼1216室</p>
+                    <p>200030</p>
+                    <div class="pull-right">
+                        <a href="account_address_modification.html">
+                            <button type="button" class="btn btn-white"  data-toggle="modal" data-target=".bs-example-modal-sm">
+                                修改
+                            </button>
+                        </a>
+                        <button type="button" class="btn btn-white" data-toggle="modal" data-target="#myModal2">
+                            删除
+                        </button>
+                        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h4 class="modal-title" id="myModalLabel2">删除地址</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div>
+                                            <strong>您确认要删除此地址吗</strong>
+                                        </div>
+                                        <span>无法恢复此操作</span>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-dismiss="modal">确认删除</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+                <div class="col-md-6 address-nav-top">
+                    <div class="address-top" style="text-align: center;">
+                        <a href="account_add_address.html">
+                            <img src="img/icon/circular-crosss.png">
+                            <span data-toggle="modal" data-target="#myModal3">添加地址</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="footer-box">
+            <div class="col-md-3 col-sm-3">
+                <ul>
+                    <li class="mg-bt"><a href="###"><strong>网上购物</strong></a></li>
+                    <li class="mg-top"><a href="footer_distribution_information.html">配送信息</a></li>
+                    <li class="mg-top"><a href="footer_return_information.html">退换货信息</a></li>
+                    <li class="mg-top"><a href="###">服务条款</a></li>
+                    <li class="mg-top"><a href="###">隐私与cookie条款</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <ul>
+                    <li class="mg-bt"><a href="###"><strong>联系我们</strong></a></li>
+                    <li class="mg-top"><a href="footer_business_cooperations.html">客户服务</a></li>
+                    <li class="mg-top"><a href="footer_recruit.html">招贤纳士</a></li>
+                    <li class="mg-top"><a href="footer_business_cooperation.html">商务合作</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <ul>
+                    <li class="mg-bt"><a href="###"><strong>尺寸APP</strong></a></li>
+                    <li class="mg-top"><a href="###"><img
+                            src="img/icon/game.png"></a></li>
+                    <li class="mg-top"><a href="###">关注我们</a></li>
+                    <li class="mg-top"><a href="###"><img class="width-22" src="img/icon/weixin.png"><img class="mg-left-10 width-24" src="img/icon/weixin2.png"></a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <ul class="padding-0">
+                    <li class="mg-bt mg-bts"><a href="###"><strong>订阅电子快报</strong></a>
+
+                        <div style="position: relative;z-index: 1">
+                            <input type="text" class="form-control searchinput2" placeholder="" value=""
+                                   id="txtSearch2">
+                            <a href="###"><img class="search_img2" src="img/icon/sev2.png"></a>
+                        </div>
+                    </li>
+                    <li class="copyright-bottom">Copyright © 2016 尺寸 & Co. All rights reserved</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<!--<script src="js/bootstrap.js" type="text/javascript"></script>-->
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+<script src="js/jquery-2.2.3.min.js"></script>
+</body>
+</html>
